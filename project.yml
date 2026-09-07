@@ -1,0 +1,24 @@
+name: GameRemote
+options:
+  bundleIdPrefix: com.gameremote
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  GameRemote:
+    type: application
+    platform: iOS
+    sources:
+      - GameRemote
+    info:
+      path: GameRemote/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.gameremote.app
+        PRODUCT_NAME: GameRemote
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: ""
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: NO
+        IPHONEOS_DEPLOYMENT_TARGET: "15.0"
